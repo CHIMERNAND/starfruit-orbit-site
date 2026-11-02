@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starfruit Orbit — Roll the rings · Clarke Studios</title>
+<meta name="description" content="Tilt gravity and roll a crystal sphere through ten orbital rings. Free web demo. Offline. No ads.">
+<meta property="og:title" content="Starfruit Orbit">
+<meta property="og:description" content="Tilt gravity, grab starfruit that change your mass, clear ten orbital rings.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://clarkestudios.com/starfruit-orbit-site/">
+<meta property="og:image" content="https://clarkestudios.com/starfruit-orbit-site/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://clarkestudios.com/starfruit-orbit-site/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root { color-scheme: dark; --bg:#07090f; --ink:#e8eef8; --mute:#9aa7bd; --line:#1c2433; --burn:#ffb347; --you:#7ee0c3; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.5 system-ui,sans-serif; }
+  main { max-width:48rem; margin:0 auto; padding:32px 20px 64px; }
+  h1 { font-weight:600; letter-spacing:0.02em; font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-weight:600; font-size:1.25rem; margin:2.2rem 0 0.6rem; color:var(--you); }
+  .sub { color:var(--mute); margin-top:0; }
+  a { color:var(--burn); }
+  nav a { margin-right:1rem; color:var(--mute); text-decoration:none; }
+  nav a:hover { color:var(--ink); }
+  .cta { display:inline-block; margin:0.4rem 0.6rem 0.4rem 0; padding:0.55rem 0.9rem; border:1px solid var(--line); border-radius:6px; text-decoration:none; color:var(--ink); }
+  .cta.primary { border-color:var(--burn); color:var(--burn); }
+  .note { color:var(--mute); font-size:0.95rem; }
+  .frame-wrap { margin-top:1rem; border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#000; }
+  .frame-wrap iframe { display:block; width:100%; height:min(70vh, 720px); border:0; }
+  .og { max-width:100%; border-radius:8px; border:1px solid var(--line); margin:1rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Starfruit Orbit</h1>
+  <p class="sub">Tilt gravity. Grab starfruit that change your mass. Clear ten orbital rings. Free web demo — no ads, no accounts.</p>
+  <nav>
+    <a href="#play">Play</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+  </nav>
+  <p>
+    <a class="cta primary" href="play/">Open full-screen demo</a>
+    <a class="cta" href="#play">Play here</a>
+  </p>
+  <img class="og" src="og.jpg" width="1200" height="630" alt="Starfruit Orbit — monkey in a crystal sphere on gas-giant rings">
+
+  <h2 id="play">Web demo</h2>
+  <p class="note">Keyboard: WASD / arrows tilt, Esc pause, R retry, M mute. On a phone, use the on-screen stick. Device tilt / iOS wrapper comes later — this page is web-only.</p>
+  <div class="frame-wrap">
+    <iframe title="Starfruit Orbit web demo" src="play/" allow="fullscreen; gamepad" loading="lazy"></iframe>
+  </div>
+  <p><a class="cta primary" href="play/">Open without the frame</a></p>
+
+  <h2 id="privacy">Privacy</h2>
+  <p>Starfruit Orbit’s web demo runs in your browser. See the full <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2 id="support">Support</h2>
+  <p>Email <a href="mailto:support@clarkestudios.com">support@clarkestudios.com</a>. More in <a href="support.html">Support</a>.</p>
+
+  <p class="note">Studio: <a href="https://clarkestudios.com/">Clarke Studios</a> · Source: <a href="https://github.com/CHIMERNAND/monorepo/tree/main/projects/tiltopia/ideas/starfruit-orbit">monorepo / starfruit-orbit</a></p>
+</main>
+</body>
+</html>
